@@ -157,7 +157,7 @@ const buttonActive = ref(true)
         />
       </div>
 
-      <button :class="`uppercase  whitespace-nowrap rounded-lg text-white bg-[#DF142D] ${props.sidebarActive ? 'w-[24%] font-bold text-lg' : ' w-full rounded-full py-[15px]'}`">
+      <button :class="`uppercase  whitespace-nowrap text-white bg-[#DF142D] ${props.sidebarActive ? 'w-[24%] rounded-lg  font-bold text-lg' : ' w-full rounded-full py-[15px]'}`">
         search flight
       </button>
     </div>

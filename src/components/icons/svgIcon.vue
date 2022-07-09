@@ -174,5 +174,9 @@ import { defineProps } from 'vue'
   </defs>
   </svg>
 
+  <svg v-else-if="props.name == 'arrow-right'" :width="props.width ? props.width : 14" :height="props.height ? props.height : 14" :fill="props.fill" viewBox="0 0 14 14"  xmlns="http://www.w3.org/2000/svg">
+  <path d="M3.5 0L11.0833 6.70833L3.5 13.4167L3.5 0Z" :fill="props.fill" />
+  </svg>
+
 
 </template>
