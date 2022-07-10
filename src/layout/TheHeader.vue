@@ -18,7 +18,7 @@ onMounted(() => {
     <nav class='flex justify-between'>
 
     <div :class="`flex text-white text-center duration-1000 mt-[150px] ${marginTopChanging > 50 ? '-translate-y-40' : ' h-[70px]'}`">
-      <router-link to="/flights" active-class="bg-[#0A6ADA]" class="flex items-center flex-col mx-3 p-3 rounded-lg">
+      <router-link to="/" active-class="bg-[#0A6ADA]" class="flex items-center flex-col mx-3 p-3 rounded-lg">
         <svg-icon name='plane' />
         <span class="mt-1.5 text-xs">
           flights

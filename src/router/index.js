@@ -7,11 +7,16 @@ const routes = [
     name: 'home',
     component: HomeView
   },
-  // {
-  //   path: '/about',
-  //   name: 'about',
-  //   component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  // }
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: () => import(/* webpackChunkName: "not-found" */ '@/views/NotFoundPage.vue')
+  },
+  {
+    path: '/flights',
+    name: 'flights',
+    component: () => import(/* webpackChunkName: "flights" */ '@/views/FlightsPage.vue')
+  }
 ]
 
 const router = createRouter({

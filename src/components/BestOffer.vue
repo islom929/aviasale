@@ -60,7 +60,7 @@ const offerCard = reactive([
   <div class="w-full bg-white px-14 py-6 rounded-2xl mt-[50px]">
     <div class="flex items-center justify-between w-full  mb-5">
       <h2 class="text-2xl text-[#282E44] font-extrabold mb-0">Best Offer</h2>
-      <router-link class="text-lg text-[#282E44] opacity-50"  to='/book-all'>View all</router-link>
+      <router-link class="text-lg text-[#282E44] opacity-50"  to='/flights'>View all</router-link>
     </div>
 
     <div class="w-full flex flex-col">

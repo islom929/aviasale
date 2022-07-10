@@ -12,8 +12,6 @@ const scrollTop = () => {
   if(window.scrollY < 400) {
     marginTopChanging.value = Number(Math.round(window.scrollY))
   }
-
-  console.log(window.scrollY)
 }
 
 onMounted(() => {
@@ -36,7 +34,6 @@ onMounted(() => {
           :sidebarActive='marginTopChanging && sidebarActive ?  !sidebarActive : sidebarActive'
         />
       <div class="">
-        <slot />
         <router-view></router-view>
       </div>
     </div>
